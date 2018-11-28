@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="316.0" prefWidth="347.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="258.0" layoutY="32.0" prefHeight="31.0" prefWidth="54.0" />
+      <Text layoutX="69.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Počet sirek na hromádce" />
+      <TextField layoutX="258.0" layoutY="73.0" prefHeight="31.0" prefWidth="54.0" />
+      <Text layoutX="28.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max. během hry můžu odebrat" />
+      <Separator layoutX="18.0" layoutY="157.0" prefHeight="3.0" prefWidth="325.0" />
+      <Button layoutX="259.0" layoutY="114.0" mnemonicParsing="false" text="Hrát!" />
+
+   </children>
+</Pane>
