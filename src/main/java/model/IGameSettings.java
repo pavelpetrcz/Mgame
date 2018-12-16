@@ -1,4 +1,4 @@
 package model;
 
-public interface IGameSettings {
+interface IGameSettings {
 }

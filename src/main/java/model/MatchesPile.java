@@ -1,13 +1,20 @@
 package model;
 
 
-class MatchesPile implements IMatchesPile {
+public class MatchesPile implements IMatchesPile {
 
     /*
     Variables
      */
     Long startMatchesCount; //number of matches at pile at the beginning or round
     Long actualMatchesCount; //number of matches at pile at the moment
+
+    /*
+    Custom constructor
+     */
+    public MatchesPile(Long startMatchesCount) {
+        startMatchesCount = this.startMatchesCount;
+    }
 
 
     /*
