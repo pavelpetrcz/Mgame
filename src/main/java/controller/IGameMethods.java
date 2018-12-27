@@ -4,15 +4,18 @@ import model.MatchesPile;
 
 public interface IGameMethods {
 
-    /*
-    Methods
-     */
-    public MatchesPile userTakeMatches(Long take, MatchesPile pile) {
+    MatchesPile userTakeMatches(Long take, MatchesPile pile);
 
-    }
+    MatchesPile computerTakeMatches(MatchesPile pile);
 
-    public MatchesPile computerTakeMatches(MatchesPile pile){
 
-    }
+
+
+
+
+
+
+
+
 
 }

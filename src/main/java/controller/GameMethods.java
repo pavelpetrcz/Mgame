@@ -4,7 +4,7 @@ import model.MatchesPile;
 
 import java.security.SecureRandom;
 
-public class GameMethodsImpl implements IGameMethods {
+public class GameMethods {
 
     /**
      * Take specific amount of matches from the pile
@@ -13,8 +13,8 @@ public class GameMethodsImpl implements IGameMethods {
      * @return object after taking specific amount of matches
      */
 
-    @Override
-    public MatchesPile userTakeMatches(Long take, MatchesPile pile) {
+
+    protected MatchesPile userTakeMatches(Long take, MatchesPile pile) {
         pile.setActualMatchesCount(pile.getActualMatchesCount() - take);
         return pile;
     }

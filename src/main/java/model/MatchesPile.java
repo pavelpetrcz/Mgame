@@ -16,7 +16,6 @@ public class MatchesPile implements IMatchesPile {
         startMatchesCount = this.startMatchesCount;
     }
 
-
     /*
     Getters and Setters
      */

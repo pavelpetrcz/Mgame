@@ -1,18 +1,20 @@
 package model;
 
-class GameSettingsImpl implements IGameSettings {
+public class GameSettings implements IGameSettings {
     Long maximumTake; //maximum count of matches that player can take
 
-    /*
-    Custom constructor
+    /**
+     * Custom constructor - GameSettings
+     * @param maximumTake - how many matches can player take in round
      */
-    public GameSettingsImpl(Long maximumTake) {
+    public GameSettings(Long maximumTake) {
         this.maximumTake = maximumTake;
     }
 
     /*
-        Getters and Setters
-         */
+    Getters and setters
+     */
+
     public Long getMaximumTake() {
         return maximumTake;
     }
