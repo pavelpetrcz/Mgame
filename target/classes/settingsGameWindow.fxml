@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="10" minWidth="-Infinity" prefHeight="355.0" prefWidth="258.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SetGameWindowContr">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="10" minWidth="-Infinity" prefHeight="355.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SetGameWindowContr">
    <children>
       <TextField fx:id="totalMatchesCountInput" layoutX="14.0" layoutY="192.0" prefHeight="31.0" prefWidth="54.0">
          <tooltip>
@@ -21,7 +21,7 @@
             <Tooltip text="Počet sirek jenž může hráč maximálně vzít z hromádky v každém kole (hodnota nesmí být vyšší než počet sirek na hromádce)" wrapText="true" />
          </tooltip></TextField>
       <Text layoutX="76.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max. sirek na kolo" />
-      <Button fx:id="startGame" layoutX="16.0" layoutY="298.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="223.0" text="Start hry" textFill="#eb0000" />
+      <Button fx:id="startGamebtn" layoutX="16.0" layoutY="298.0" mnemonicParsing="false" onAction="#handleStartGame" prefHeight="31.0" prefWidth="223.0" text="Start hry" textFill="#eb0000" />
       <Text layoutX="39.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="matchesGame">
          <font>
             <Font name="Agency FB Bold" size="37.0" />

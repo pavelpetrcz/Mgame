@@ -4,10 +4,11 @@ import model.GameSettings;
 import model.MatchesPile;
 
 public class StartGameFlow {
+
     public StartGameFlow() {
     }
 
-    public void execute(Long startCount, Long maximumTake) {
+    public void execute(Integer startCount, Integer maximumTake) {
 
         // set pile of matches
         MatchesPile pile = new MatchesPile(startCount);

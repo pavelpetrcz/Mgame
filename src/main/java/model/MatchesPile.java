@@ -6,33 +6,32 @@ public class MatchesPile implements IMatchesPile {
     /*
     Variables
      */
-    Long startMatchesCount; //number of matches at pile at the beginning or round
-    Long actualMatchesCount; //number of matches at pile at the moment
+    private int startMatchesCount; //number of matches at pile at the beginning or round
+    private int actualMatchesCount; //number of matches at pile at the moment
 
     /*
     Custom constructor
      */
-    public MatchesPile(Long startMatchesCount) {
-        startMatchesCount = this.startMatchesCount;
+    public MatchesPile(int startMatchesCountParam) {
+        startMatchesCountParam = this.startMatchesCount;
     }
 
     /*
     Getters and Setters
      */
-
-    public Long getStartMatchesCount() {
+    public Integer getStartMatchesCount() {
         return startMatchesCount;
     }
 
-    public void setStartMatchesCount(Long startMatchesCount) {
+    public void setStartMatchesCount(Integer startMatchesCount) {
         this.startMatchesCount = startMatchesCount;
     }
 
-    public Long getActualMatchesCount() {
+    public Integer getActualMatchesCount() {
         return actualMatchesCount;
     }
 
-    public void setActualMatchesCount(Long actualMatchesCount) {
+    public void setActualMatchesCount(Integer actualMatchesCount) {
         this.actualMatchesCount = actualMatchesCount;
     }
 }

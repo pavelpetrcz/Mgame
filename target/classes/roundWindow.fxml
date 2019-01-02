@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Separator?>
@@ -9,18 +13,17 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
-<AnchorPane prefHeight="400.0" prefWidth="277.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RoundWindowContr">
+
+<AnchorPane prefHeight="292.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RoundWindowContr">
    <children>
-      <Button layoutX="64.0" layoutY="346.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="150.0" text="Vzít sirky" />
-      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="107.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@iconfinder_match_2799190.png" />
-         </image>
-      </ImageView>
-      <ComboBox layoutX="64.0" layoutY="295.0" prefWidth="150.0" />
-      <Text layoutX="32.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Začali jste hru, nyní hrajete proti počítači a střídáte se v odebírání sirek dokud někdo nevyhraje." textAlignment="JUSTIFY" wrappingWidth="215.0" />
-      <Text layoutX="82.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Na hromádce je:" />
-      <Separator layoutX="36.0" layoutY="268.0" prefWidth="200.0" />
-      <TextField editable="false" layoutX="46.0" layoutY="213.0" />
+      <Button fx:id="takeMatchesBtn" layoutX="55.0" layoutY="238.0" mnemonicParsing="false" onAction="#takeMatches" prefHeight="31.0" prefWidth="150.0" text="Odebrat sirky" textFill="RED" />
+      <ComboBox fx:id="takeAmountCombo" layoutX="36.0" layoutY="181.0" onAction="#chooseAmountMatches" prefHeight="31.0" prefWidth="187.0" promptText="Počet sirek.." />
+      <Text layoutX="23.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hra začala. Střídáte se v odebírání sirek." textAlignment="CENTER" wrappingWidth="215.0" />
+      <Text layoutX="72.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Na hromádce je:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Text>
+      <Separator layoutX="30.0" layoutY="163.0" prefWidth="200.0" />
+      <TextField fx:id="pileActualCountField" editable="false" layoutX="36.0" layoutY="115.0" />
    </children>
 </AnchorPane>

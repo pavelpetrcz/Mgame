@@ -1,4 +1,4 @@
 package model;
 
-public interface IMatchesPile {
+interface IMatchesPile {
 }

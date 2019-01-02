@@ -1,7 +1,12 @@
 package controller;
 
+import model.GameSettings;
+import model.MatchesPile;
+
 public class RoundFlow {
-    public void executeRoundFlow() {
+    public MatchesPile executeRoundFlow(MatchesPile pile, GameSettings settings) {
+
+
 
     }
 }

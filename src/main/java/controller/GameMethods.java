@@ -1,5 +1,6 @@
 package controller;
 
+import model.GameState;
 import model.MatchesPile;
 
 import java.security.SecureRandom;
@@ -14,7 +15,7 @@ public class GameMethods {
      */
 
 
-    protected MatchesPile userTakeMatches(Long take, MatchesPile pile) {
+    protected MatchesPile userTakeMatches(Integer take, MatchesPile pile) {
         pile.setActualMatchesCount(pile.getActualMatchesCount() - take);
         return pile;
     }
@@ -25,13 +26,18 @@ public class GameMethods {
      * @return object after computers take
      */
     public MatchesPile computerTakeMatches(MatchesPile pile) {
-        long computerTake = pile.getActualMatchesCount();
+        int computerTake = pile.getActualMatchesCount();
         SecureRandom random = new SecureRandom();
 
         while (computerTake > pile.getActualMatchesCount()) {
-            computerTake = random.nextLong();
+            computerTake = random.nextInt();
         }
         pile.setActualMatchesCount(pile.getActualMatchesCount() - computerTake);
         return pile;
+    }
+
+    boolean checkStatusGame(GameState settings) {
+
+        return false;
     }
 }
