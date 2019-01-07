@@ -2,7 +2,7 @@ package model;
 
 public class GameSettings implements IGameSettings {
     private int maximumTake; //maximum count of matches that player can take
-    private boolean
+
 
     /**
      * Custom constructor - GameSettings

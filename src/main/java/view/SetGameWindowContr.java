@@ -9,32 +9,40 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import model.GameItem;
 
 import java.io.IOException;
 
 public class SetGameWindowContr {
 
-    private StartGameFlow gameSetum = new StartGameFlow();
+    private StartGameFlow gameStart = new StartGameFlow();
+    private GameItem gameObject;
 
     @FXML private TextField totalMatchesCountInput;
     @FXML private TextField maxMatchesRoundTakeInput;
+    @FXML private TextField pileActualCountField;
 
     @FXML
     void handleStartGame(ActionEvent event) throws Exception {
         try {
-            gameSetum.execute(Integer.parseInt(totalMatchesCountInput.getText()), Integer.parseInt(maxMatchesRoundTakeInput.getText()));
+            gameObject = gameStart.execute(Integer.parseInt(totalMatchesCountInput.getText()), Integer.parseInt(maxMatchesRoundTakeInput.getText()));
 
         } catch (Exception e) {
             System.out.println("Zadejte celé nezáporné číslo.");
         }
 
         try {
+            int count = 0;
+            count = gameObject.getPile().getActualMatchesCount();
+            String text = String.valueOf(count);
             Pane mySecPane = FXMLLoader.load(getClass().getResource("/roundWindow.fxml"));
             Stage stage = new Stage();
             stage.setTitle("Hra");
             stage.setScene(new Scene(mySecPane));
             stage.initModality(Modality.WINDOW_MODAL);
             stage.show();
+            pileActualCountField.setText(text);
+
         } catch (IOException e) {
             System.out.println("Interní chyba - nelze spustit hru.");
         }

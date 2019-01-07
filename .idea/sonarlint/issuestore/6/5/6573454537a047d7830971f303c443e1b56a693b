@@ -1,6 +1,2 @@
 
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Üêã’8ÂÁÃ¶ÿ,
-[squid:S1854"8Remove this useless assignment to local variable "game".(Â€ıÁûÿÿÿÿ8”íƒóş,
-[squid:S1854"8Remove this useless assignment to local variable "pile".(î—‚şıÿÿÿÿ8¶Âƒóş,
-Lsquid:S1481")Remove this unused "game" local variable.(Â€ıÁûÿÿÿÿ8”íƒóş,
-Lsquid:S1481")Remove this unused "pile" local variable.(î—‚şıÿÿÿÿ8¶Âƒóş,
+Ÿsquid:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Üêã’8ÂÁÃ¶ÿ,

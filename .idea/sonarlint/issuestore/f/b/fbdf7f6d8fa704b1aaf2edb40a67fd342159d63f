@@ -1,2 +1,4 @@
 
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÏÇ¼­8ˆì˜èû,
+`squid:S2094"BRemove this empty class, write its code or make it an "interface".(¼â±÷8÷Ö•Í-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8÷Ö•Í-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(´òèå8÷Ö•Í-

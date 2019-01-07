@@ -12,8 +12,9 @@ public class MatchesPile implements IMatchesPile {
     /*
     Custom constructor
      */
-    public MatchesPile(int startMatchesCountParam) {
-        startMatchesCountParam = this.startMatchesCount;
+    public MatchesPile(Integer startMatchesCountParam) {
+        this.startMatchesCount = startMatchesCountParam;
+        this.actualMatchesCount = startMatchesCountParam;
     }
 
     /*
@@ -24,6 +25,7 @@ public class MatchesPile implements IMatchesPile {
     }
 
     public void setStartMatchesCount(Integer startMatchesCount) {
+
         this.startMatchesCount = startMatchesCount;
     }
 

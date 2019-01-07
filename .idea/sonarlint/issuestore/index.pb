@@ -29,3 +29,5 @@ R
 "src/main/java/model/GameState.java,f\0\f09f5e23ffa07ecc748904a84ae108022c321469
 Y
 )src/main/java/controller/GameMethods.java,2\c\2c3df35b9f5f7c6e6243faf5f98f99f45f47032d
+Q
+!src/main/java/model/GameItem.java,9\f\9f3a7ba88e348c76629a94661222dbb2085d1f6c

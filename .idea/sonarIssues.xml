@@ -8,12 +8,17 @@
             <set />
           </value>
         </entry>
-        <entry key="D:/JavaFXTableTutorial/src/sample/TableController.java">
+        <entry key="/fragment.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="D:/JavaFXTableTutorial/src/sample/TableJavaFXView.fxml">
+        <entry key="$PROJECT_DIR$/../JavaFXTableTutorial/src/sample/TableController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../JavaFXTableTutorial/src/sample/TableJavaFXView.fxml">
           <value>
             <set />
           </value>
@@ -74,6 +79,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/main/java/Mgame.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/model/GameItem.java">
           <value>
             <set />
           </value>
