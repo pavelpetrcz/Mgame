@@ -32,16 +32,13 @@ public class SetGameWindowContr {
         }
 
         try {
-            int count = 0;
-            count = gameObject.getPile().getActualMatchesCount();
-            String text = String.valueOf(count);
             Pane mySecPane = FXMLLoader.load(getClass().getResource("/roundWindow.fxml"));
             Stage stage = new Stage();
             stage.setTitle("Hra");
             stage.setScene(new Scene(mySecPane));
             stage.initModality(Modality.WINDOW_MODAL);
             stage.show();
-            pileActualCountField.setText(text);
+            pileActualCountField.setText(String.valueOf(gameObject.getPile().getActualMatchesCount()));
 
         } catch (IOException e) {
             System.out.println("Interní chyba - nelze spustit hru.");
