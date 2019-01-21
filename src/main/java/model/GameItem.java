@@ -2,7 +2,7 @@ package model;
 
 public class GameItem {
     private MatchesPile pile;
-    public GameSettings game;
+    private GameSettings game;
 
 
     public MatchesPile getPile() {
@@ -10,6 +10,7 @@ public class GameItem {
     }
 
     public void setPile(MatchesPile pile) {
+
         this.pile = pile;
     }
 
@@ -18,9 +19,8 @@ public class GameItem {
     }
 
     public void setGame(GameSettings game) {
+
         this.game = game;
     }
-
-
 
 }

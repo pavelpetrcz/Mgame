@@ -173,6 +173,51 @@
             <set />
           </value>
         </entry>
+        <entry key="K:/dcs/module_aggregation/src/main/java/cz/kb/dcs/module_aggregation/actions/AggregationActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_aggregation/src/main/java/cz/kb/dcs/module_aggregation/actions/IAggregationActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_card/src/main/java/cz/kb/dcs/module_card/actions/CardPcbsActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_card/src/main/java/cz/kb/dcs/module_card/actions/ICardPcbsActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo01_payment_orders/flows/SEPATransactionRecapHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo05_cards/flows/CardSubscribeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo22_others/flows/AggregateProductHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo22_others/flows/ProductListHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_data_objects/src/main/java/cz/kb/dcs/module_data_objects/products/CProductItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

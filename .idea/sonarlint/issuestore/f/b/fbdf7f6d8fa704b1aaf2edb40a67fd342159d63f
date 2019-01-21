@@ -1,4 +1,3 @@
 
-`squid:S2094"BRemove this empty class, write its code or make it an "interface".(¼â±÷8÷Ö•Í-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8÷Ö•Í-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(´òèå8÷Ö•Í-
+`squid:S2094"BRemove this empty class, write its code or make it an "interface".(¼â±÷8÷Ö•Í-
+^squid:UselessImportCheck".Remove this unused import 'model.MatchesPile'.(÷Ìùüûÿÿÿÿ8÷Í­Ì‚-

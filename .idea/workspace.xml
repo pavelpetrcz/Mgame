@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/973ad458ac0e7c087e72c239572cc31137204067" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/973ad458ac0e7c087e72c239572cc31137204067" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f3a7ba88e348c76629a94661222dbb2085d1f6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f3a7ba88e348c76629a94661222dbb2085d1f6c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d89b865f16f60583eb68c686cd66d37eca31a282" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d89b865f16f60583eb68c686cd66d37eca31a282" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbdf7f6d8fa704b1aaf2edb40a67fd342159d63f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbdf7f6d8fa704b1aaf2edb40a67fd342159d63f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/GameItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/roundWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/roundWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/GameItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/roundWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/roundWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/RoundWindowContr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/RoundWindowContr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/SetGameWindowContr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/SetGameWindowContr.class" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,6 +26,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Mgame$Main.ic" NAME="Main Coverage Results" MODIFIED="1547190991083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>controller.*</FILTER>
+    </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -60,11 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="133">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,30 +90,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/RoundFlow.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="1300">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/roundWindow.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="-260">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="206">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,20 +189,20 @@
         <option value="$PROJECT_DIR$/src/main/java/view/GameSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/SettingsGameWindowController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/ViewMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/IMatchesPile.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/GameState.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/IGameMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/GameMethods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/GameItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/roundWindow.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/settingsGameWindow.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/RoundFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/MatchesPile.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/GameSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GameItem.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/roundWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java" />
       </list>
     </option>
@@ -211,10 +243,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="90" />
-    <option name="y" value="40" />
-    <option name="width" value="1680" />
-    <option name="height" value="985" />
+    <option name="x" value="73" />
+    <option name="y" value="31" />
+    <option name="width" value="1345" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -227,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,7 +320,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -301,9 +333,9 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.5058905" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546887212415" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548112388547" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="K:/fes" />
+    <property name="last_opened_file_path" value="K:/mb2-android-v2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -435,9 +467,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.23716216" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.24459459" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32972974" />
       <window_info id="Designer" order="3" />
@@ -446,8 +477,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41717792" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.607362" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41564417" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45552146" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
@@ -457,7 +488,7 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" weight="0.32668713" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.38190183" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.38036808" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="SonarLint" order="15" weight="0.32" />
       <window_info anchor="bottom" id="SonarQube" order="16" weight="0.3276923" />
@@ -472,9 +503,10 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297362" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17905405" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24459459" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32972974" />
       <window_info id="Designer" order="3" />
@@ -483,8 +515,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6088957" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.398773" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41564417" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45552146" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
@@ -493,8 +525,8 @@
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" weight="0.3276923" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3830481" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32668713" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.38036808" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="SonarLint" order="15" weight="0.32" />
       <window_info anchor="bottom" id="SonarQube" order="16" weight="0.3276923" />
@@ -509,6 +541,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297362" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
@@ -520,23 +553,61 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java</url>
-          <line>40</line>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java</url>
+          <line>48</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java</url>
+          <line>17</line>
+          <properties field="actualPileCountText" class="view.RoundWindowContr" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="pile" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>pile</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="setValue">
       <expression>
         <expression-string>2</expression-string>
@@ -545,6 +616,11 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>pile</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>pileActualCountField</expression-string>
         <language-id>JAVA</language-id>
@@ -576,16 +652,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/ViewMethods.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/IMatchesPile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -604,23 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/IGameSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -683,24 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/settingsGameWindow.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
@@ -715,24 +746,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/MatchesPile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/RoundFlow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="130">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/MatchesPile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/IGameSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/settingsGameWindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="206">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -740,19 +811,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/roundWindow.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="-260">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="133">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
           </folding>
         </state>
       </provider>
