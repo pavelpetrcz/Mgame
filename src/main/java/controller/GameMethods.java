@@ -15,9 +15,8 @@ public class GameMethods {
      */
 
 
-    protected MatchesPile userTakeMatches(Integer take, MatchesPile pile) {
+    protected void userTakeMatches(Integer take, MatchesPile pile) {
         pile.setActualMatchesCount(pile.getActualMatchesCount() - take);
-        return pile;
     }
 
     /**
@@ -25,7 +24,7 @@ public class GameMethods {
      * @param pile object with info about round
      * @return object after computers take
      */
-    public MatchesPile computerTakeMatches(MatchesPile pile) {
+    public void computerTakeMatches(MatchesPile pile) {
         int computerTake = pile.getActualMatchesCount();
         SecureRandom random = new SecureRandom();
 
@@ -33,7 +32,7 @@ public class GameMethods {
             computerTake = random.nextInt();
         }
         pile.setActualMatchesCount(pile.getActualMatchesCount() - computerTake);
-        return pile;
+
     }
 
     boolean checkStatusGame(GameState settings) {

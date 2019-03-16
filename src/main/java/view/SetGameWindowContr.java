@@ -5,7 +5,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
@@ -14,42 +16,50 @@ import model.GameItem;
 import model.MatchesPile;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
 public class SetGameWindowContr {
 
     private StartGameFlow gameStart = new StartGameFlow();
-    private GameItem gameObject;
+    RoundWindowContr roundWindow = new RoundWindowContr();
 
     @FXML private TextField totalMatchesCountInput;
     @FXML private TextField maxMatchesRoundTakeInput;
+
+    public Label getTestLabel() {
+        return testLabel;
+    }
+
+    public void setTestLabel(Label testLabel) {
+        this.testLabel = testLabel;
+    }
+
+    @FXML
+    private Label testLabel;
 
 
     @FXML
     void handleStartGame(ActionEvent event) throws Exception {
         try {
-            gameObject = gameStart.execute(Integer.parseInt(totalMatchesCountInput.getText()), Integer.parseInt(maxMatchesRoundTakeInput.getText()));
+
+            gameStart.execute(Integer.parseInt(totalMatchesCountInput.getText()), Integer.parseInt(maxMatchesRoundTakeInput.getText()));
 
         } catch (Exception e) {
             System.out.println("Zadejte celé nezáporné číslo.");
         }
 
         try {
+            //inicializace nového controlleru
+
+            //roundWindow.initialize(URL, ResourceBundle);
+
             Pane mySecPane = FXMLLoader.load(getClass().getResource("/roundWindow.fxml")); //new window resource
             Stage stage = new Stage();
             stage.setTitle("Hra"); //set name of window
+            stage.getIcons().add(new Image("iconfinder_match_2799190.png"));
             stage.setScene(new Scene(mySecPane));
             stage.initModality(Modality.WINDOW_MODAL); //new window behaves as modal
-
-            //construtor of controller for new window
-            RoundWindowContr roundWindow = new RoundWindowContr();
-            Text text = new Text();
-            MatchesPile pileOfMatches = gameObject.getPile();
-            int actualCount = pileOfMatches.getActualMatchesCount(); //getting actual number of matches at pile
-            text.setText(String.valueOf(actualCount));
-            roundWindow.setactualPileCountText(text);
-
-
-
             stage.show();
 
         } catch (IOException e) {

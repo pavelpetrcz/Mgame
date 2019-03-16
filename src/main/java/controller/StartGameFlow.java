@@ -6,11 +6,11 @@ import model.MatchesPile;
 
 public class StartGameFlow {
 
-    public StartGameFlow() {
-    }
+    public StartGameFlow() { }
 
     public GameItem execute(Integer startCount, Integer maximumTake) {
-        GameItem gameItem = new GameItem();
+
+        GameItem gameItem = GameItem.getInstance();
         // set pile of matches
         MatchesPile pile = new MatchesPile(startCount);
         gameItem.setPile(pile);

@@ -32,5 +32,6 @@
             <Image url="@iconfinder_match_2799190.png" />
          </image>
       </ImageView>
+      <Label fx:id="testLabel" layoutX="98.0" layoutY="354.0" />
    </children>
 </Pane>

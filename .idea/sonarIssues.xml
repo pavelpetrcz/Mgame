@@ -68,6 +68,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/controller/TakeMatchesFlow.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/controller/startGameFlow.java">
           <value>
             <set />
@@ -173,6 +178,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../czpavelpetraddressApp/src/main/java/controller/MainApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/kalkulackaFx/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/kalkulackaFx/src/main/java/FXMLDocument.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/kalkulackaFx/src/main/java/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../java/kalkulackaFx/src/main/resources/FXMLDocument.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/app_cexi/src/main/java/cz/kb/dcs/app_cexi/forms/fo01_payment_orders/payments_list/payment_type_panels/AbstractPaymentPanel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="K:/dcs/module_aggregation/src/main/java/cz/kb/dcs/module_aggregation/actions/AggregationActions.java">
           <value>
             <set />
@@ -188,6 +223,11 @@
             <set />
           </value>
         </entry>
+        <entry key="K:/dcs/module_card/src/main/java/cz/kb/dcs/module_card/actions/ICardActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="K:/dcs/module_card/src/main/java/cz/kb/dcs/module_card/actions/ICardPcbsActions.java">
           <value>
             <set />
@@ -198,7 +238,22 @@
             <set />
           </value>
         </entry>
+        <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo01_payment_orders/flows/TransactionClaimHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo05_cards/flows/CardSubscribeHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo12_iks/flows/NewIKSContractHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo19_security/flows/LoginHandler.java">
           <value>
             <set />
           </value>
@@ -213,7 +268,67 @@
             <set />
           </value>
         </entry>
+        <entry key="K:/dcs/module_clientuser/src/main/java/cz/kb/dcs/module_clientuser/actions/ClientUserModuleActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_clientuser/src/main/java/cz/kb/dcs/module_clientuser/actions/IClientUserModuleActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_clientuser/src/main/resources/cz/kb/dcs/module_clientuser/impl/resources_jdbc/mapper/ClientMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_controller/src/main/java/cz/kb/dcs/module_controller/api/mba2/xsd/BatchTransaction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_data_objects/src/main/java/cz/kb/dcs/module_data_objects/actions/IDataObjectsModuleActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_data_objects/src/main/java/cz/kb/dcs/module_data_objects/api/domain/standing_order/constants/CBACategoryTrnSpecial.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="K:/dcs/module_data_objects/src/main/java/cz/kb/dcs/module_data_objects/products/CProductItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_iks/src/main/database/base/sql/source/package_bodies/api_iks_pckg.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_iks/src/main/resources/cz/kb/dcs/module_iks/impl/resources_jdbc/mapper/IKSMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_loan/src/main/java/cz/kb/dcs/module_loan/actions/ILoanActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_loan/src/main/java/cz/kb/dcs/module_loan/actions/LoanActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_transaction/src/main/java/cz/kb/dcs/module_transaction/actions/TransactionActions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_transaction/src/main/java/cz/kb/dcs/module_transaction/actions/ValidationActions.java">
           <value>
             <set />
           </value>

@@ -1,16 +1,32 @@
 package model;
 
-public class GameItem {
+/**
+ * Singleton - hold created pile and rules of game in progress
+ */
+
+public class    GameItem {
     private MatchesPile pile;
     private GameSettings game;
 
+    /**
+     * empty constructor of singleton
+     */
+    private GameItem() {}
+    public static  GameItem gameItem = new GameItem();
 
+    /**
+     *  Static 'instance' method
+     **/
+    public static GameItem getInstance() {
+        return gameItem;
+    }
+
+    /* Getters and setters */
     public MatchesPile getPile() {
         return pile;
     }
 
     public void setPile(MatchesPile pile) {
-
         this.pile = pile;
     }
 
@@ -22,5 +38,4 @@ public class GameItem {
 
         this.game = game;
     }
-
 }
