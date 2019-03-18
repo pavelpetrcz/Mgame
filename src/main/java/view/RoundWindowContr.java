@@ -11,10 +11,7 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.Label;
+import javafx.scene.control.*;
 import javafx.stage.Popup;
 import model.GameItem;
 
@@ -86,11 +83,27 @@ public class RoundWindowContr implements Initializable {
             }
         });
     }
-    public void showAlert() {
+    public void showAlertComputerWon() {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Hra skončila.");
-        alert.setContentText("Hra skončila.");
+        alert.setHeaderText(null);
+        alert.setContentText("Bohužel počítač tě přelstil a táhl poslední sirky na hromádce. Zkus to znovu.");
         alert.showAndWait();
+    }
+
+    public void showAlertUserWon() {
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Hra skončila.");
+        alert.setHeaderText(null);
+        alert.setContentText("VÍTĚZSTVÍ! Právě jsi táhl poslední sirky na hromádce. A stáváš se vítězem.");
+        alert.showAndWait();
+
+        ButtonType buttonPlayAgain = new ButtonType("Další hru");
+        ButtonType buttonClose = new ButtonType("Zavřít", ButtonBar.ButtonData.CANCEL_CLOSE);
+
+        alert.getButtonTypes().setAll(buttonClose, buttonPlayAgain);
+
+
     }
 
 }

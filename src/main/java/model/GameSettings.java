@@ -3,6 +3,7 @@ package model;
 public class GameSettings implements IGameSettings {
     private int maximumTake; //maximum count of matches that player can take
     private GameState state; // state of the game
+    private boolean userWinner; //true if the winner is user, otherwise false
 
 
     /**
@@ -31,6 +32,14 @@ public class GameSettings implements IGameSettings {
 
     public void setState(GameState state) {
         this.state = state;
+    }
+
+    public boolean isUserWinner() {
+        return userWinner;
+    }
+
+    public void setUserIsWinner(boolean userWinner) {
+        this.userWinner = userWinner;
     }
 }
 

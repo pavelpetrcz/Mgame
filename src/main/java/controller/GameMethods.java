@@ -31,14 +31,11 @@ public class GameMethods {
         int computerTake = 0;
         int upperBound = pile.getActualMatchesCount() + 1;
 
-
         SecureRandom random = new SecureRandom();
         computerTake = random.nextInt();
         while (computerTake > pile.getActualMatchesCount() || computerTake < 0) {
             computerTake = random.nextInt(upperBound);
             System.out.println(computerTake);
-
-
         }
         pile.setActualMatchesCount(pile.getActualMatchesCount() - computerTake);
         changeGameStatus(GameItem.getInstance());
@@ -59,5 +56,15 @@ public class GameMethods {
         if (item.getPile().getActualMatchesCount() <= 0) {
             item.getGame().setState(GameState.FINISHED);
         }
+    }
+
+    protected void setWinner(GameItem item) {
+        if (item.getPile().getActualMatchesCount() == 0) {
+            item.getGame().setUserIsWinner(true);
+        } else {
+            item.getGame().setUserIsWinner(false);
+        }
+
+
     }
 }

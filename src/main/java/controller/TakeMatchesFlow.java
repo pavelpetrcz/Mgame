@@ -20,22 +20,21 @@ public class TakeMatchesFlow {
             GameItem instance = GameItem.getInstance();
             //user takes
             game.userTakeMatches(playerTake, instance.getPile());
+            //set user as winner when after users take count of matches is zero at the pile
+            game.setWinner(instance);
             //computer takes
             game.computerTakeMatches(instance.getPile());
             //check game state
             finishedGame = game.checkGameIsFinished(instance.getGame());
 
+            RoundWindowContr round = new RoundWindowContr();
             if (finishedGame) {
-                RoundWindowContr round = new RoundWindowContr();
-                round.showAlert();
+                if (instance.getGame().isUserWinner()) {
+                    round.showAlertUserWon();
 
-                 /*       FXMLLoader.load(getClass().getResource("/roundWindow.fxml")); //new window resource
-                Stage stage = new Stage();
-                stage.setTitle("Hra"); //set name of window
-                stage.getIcons().add(new Image("iconfinder_match_2799190.png"));
-                stage.setScene(new Scene(mySecPane));
-                stage.initModality(Modality.APPLICATION_MODAL); //new window behaves as modal
-                stage.show();*/
+                } else {
+                    round.showAlertComputerWon();
+                }
             }
 
         } catch (Exception e) {
