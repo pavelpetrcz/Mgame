@@ -4,7 +4,7 @@ package model;
  * Singleton - hold created pile and rules of game in progress
  */
 
-public class    GameItem {
+public class GameItem {
     private MatchesPile pile;
     private GameSettings game;
 
@@ -35,7 +35,6 @@ public class    GameItem {
     }
 
     public void setGame(GameSettings game) {
-
         this.game = game;
     }
 }

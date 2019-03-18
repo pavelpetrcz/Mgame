@@ -11,17 +11,17 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.stage.Popup;
 import model.GameItem;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class RoundWindowContr implements Initializable {
-
-
 
     @FXML // fx:id="takeAmountCombo"
     private ComboBox<String> takeAmountCombo; // Value injected by FXMLLoader
@@ -33,10 +33,14 @@ public class RoundWindowContr implements Initializable {
     private Button takeMatchesBtn; // Value injected by FXMLLoader
 
     @FXML
-    void takeMatches(ActionEvent event) {    }
+    void takeMatches(ActionEvent event) {
+
+    }
 
     @FXML
-    void chooseAmountMatches(ActionEvent event) {    }
+    void chooseAmountMatches(ActionEvent event) {
+
+    }
 
     /**
      * Called to initialize a controller after its root element has been
@@ -46,6 +50,7 @@ public class RoundWindowContr implements Initializable {
      *                  <tt>null</tt> if the location is not known.
      * @param resources The resources used to localize the root object, or <tt>null</tt> if
      */
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         ObservableList<String> matchesTakeOptions = FXCollections.observableArrayList();
@@ -81,4 +86,11 @@ public class RoundWindowContr implements Initializable {
             }
         });
     }
+    public void showAlert() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Hra skončila.");
+        alert.setContentText("Hra skončila.");
+        alert.showAndWait();
+    }
+
 }

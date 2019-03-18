@@ -1,5 +1,7 @@
 package controller;
 
+import model.GameItem;
+import model.GameSettings;
 import model.GameState;
 import model.MatchesPile;
 
@@ -17,6 +19,7 @@ public class GameMethods {
 
     protected void userTakeMatches(Integer take, MatchesPile pile) {
         pile.setActualMatchesCount(pile.getActualMatchesCount() - take);
+        changeGameStatus(GameItem.getInstance());
     }
 
     /**
@@ -24,19 +27,37 @@ public class GameMethods {
      * @param pile object with info about round
      * @return object after computers take
      */
-    public void computerTakeMatches(MatchesPile pile) {
-        int computerTake = pile.getActualMatchesCount();
-        SecureRandom random = new SecureRandom();
+    protected void computerTakeMatches(MatchesPile pile) {
+        int computerTake = 0;
+        int upperBound = pile.getActualMatchesCount() + 1;
 
-        while (computerTake > pile.getActualMatchesCount()) {
-            computerTake = random.nextInt();
+
+        SecureRandom random = new SecureRandom();
+        computerTake = random.nextInt();
+        while (computerTake > pile.getActualMatchesCount() || computerTake < 0) {
+            computerTake = random.nextInt(upperBound);
+            System.out.println(computerTake);
+
+
         }
         pile.setActualMatchesCount(pile.getActualMatchesCount() - computerTake);
-
+        changeGameStatus(GameItem.getInstance());
     }
 
-    boolean checkStatusGame(GameState settings) {
+    /**
+     * @param game - current game settings
+     * @return - return if the game is over
+     */
+    protected boolean checkGameIsFinished(GameSettings game) {
+        return game.getState() == GameState.FINISHED;
+    }
 
-        return false;
+    /**
+     * @param item - current game
+     */
+    protected void changeGameStatus(GameItem item) {
+        if (item.getPile().getActualMatchesCount() <= 0) {
+            item.getGame().setState(GameState.FINISHED);
+        }
     }
 }

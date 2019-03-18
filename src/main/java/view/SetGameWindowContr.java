@@ -50,16 +50,12 @@ public class SetGameWindowContr {
         }
 
         try {
-            //inicializace nového controlleru
-
-            //roundWindow.initialize(URL, ResourceBundle);
-
             Pane mySecPane = FXMLLoader.load(getClass().getResource("/roundWindow.fxml")); //new window resource
             Stage stage = new Stage();
             stage.setTitle("Hra"); //set name of window
             stage.getIcons().add(new Image("iconfinder_match_2799190.png"));
             stage.setScene(new Scene(mySecPane));
-            stage.initModality(Modality.WINDOW_MODAL); //new window behaves as modal
+            stage.initModality(Modality.APPLICATION_MODAL); //new window behaves as modal
             stage.show();
 
         } catch (IOException e) {

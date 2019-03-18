@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/6573454537a047d7830971f303c443e1b56a693b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/6573454537a047d7830971f303c443e1b56a693b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c3df35b9f5f7c6e6243faf5f98f99f45f47032d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c3df35b9f5f7c6e6243faf5f98f99f45f47032d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/973ad458ac0e7c087e72c239572cc31137204067" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/973ad458ac0e7c087e72c239572cc31137204067" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f3a7ba88e348c76629a94661222dbb2085d1f6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f3a7ba88e348c76629a94661222dbb2085d1f6c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d89b865f16f60583eb68c686cd66d37eca31a282" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d89b865f16f60583eb68c686cd66d37eca31a282" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbdf7f6d8fa704b1aaf2edb40a67fd342159d63f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/GameMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GameMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/IGameMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/IGameMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/RoundFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/TakeMatchesFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/TakeMatchesFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/TakeMatchesFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/GameItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/GameSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/roundWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/roundWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/settingsGameWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/settingsGameWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/StartGameFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/StartGameFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GameItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/roundWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/roundWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/settingsGameWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/settingsGameWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/RoundWindowContr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/RoundWindowContr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/SetGameWindowContr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/SetGameWindowContr.class" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,44 +79,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="286">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/IGameMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/GameItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1014">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#1600#1601#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +95,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/TakeMatchesFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="286">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+            <state relative-caret-position="360">
+              <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -153,10 +118,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/GameState.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+            <state relative-caret-position="411">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="416">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+            <state relative-caret-position="317">
+              <caret line="58" column="25" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="58" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -244,20 +212,20 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/view/ViewMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/IMatchesPile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/GameState.java" />
         <option value="$PROJECT_DIR$/src/main/resources/settingsGameWindow.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/model/MatchesPile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/GameSettings.java" />
         <option value="$PROJECT_DIR$/src/main/resources/roundWindow.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/RoundFlow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/GameMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/IGameMethods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/TakeMatchesFlow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/GameItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GameSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/GameState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/TakeMatchesFlow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/GameMethods.java" />
       </list>
     </option>
   </component>
@@ -297,10 +265,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="570" />
-    <option name="y" value="225" />
-    <option name="width" value="1937" />
-    <option name="height" value="1057" />
+    <option name="x" value="456" />
+    <option name="y" value="180" />
+    <option name="width" value="1550" />
+    <option name="height" value="846" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -313,6 +281,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,7 +343,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,14 +355,14 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="SONARLINT_ISSUES_SPLIT_PROPORTION" value="0.73250175" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552755990634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552924790234" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/UpominacNarozenin1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.23661071" />
   </component>
   <component name="RecentsManager">
@@ -521,10 +489,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.27364865" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19011815" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32972974" />
       <window_info id="Designer" order="3" />
@@ -533,8 +501,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11349693" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40797547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3859447" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4073507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
@@ -558,11 +526,11 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32972974" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297362" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24391893" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2391892" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32972974" />
       <window_info id="Designer" order="3" />
@@ -571,7 +539,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11349693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11332312" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40797547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -596,13 +564,25 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32972974" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297362" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/GameMethods.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -738,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -760,13 +733,28 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        <state relative-caret-position="337">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/MatchesPile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -777,40 +765,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="858">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/MatchesPile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,10 +792,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/SetGameWindowContr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="58" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/RoundWindowContr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        <state relative-caret-position="360">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -838,41 +842,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/TakeMatchesFlow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartGameFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="286">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameState.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/GameMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="286">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -943,6 +927,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
