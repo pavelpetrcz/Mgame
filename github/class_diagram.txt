@@ -1,0 +1,72 @@
+@startuml
+
+hide empty members
+
+package Model <<Frame>> {
+	Class GameItem <<Singleton>> {
+	-MatchesPile pile
+	-GameSettings game
+	+getInstance()
+	+getPile()
+	+getGame()
+	+setPile()
+	+setGame()
+	
+	}
+	
+	Class GameSettings {
+	int maximumTake
+	GameState state
+	+ getMaximumTake()
+	}
+	
+	Class MatchesPile {
+	int startMatchesCount
+	int actualMatchesCount
+	}
+	
+	enum GameState {
+		NEW
+		INPROGRESS
+		FINISHED
+		}
+		
+	interface IGameSettings
+	interface IMatchesPile
+	
+	MatchesPile ..|> IMatchesPile : implements 
+	GameSettings ..|> IGameSettings : implements 
+	
+	GameItem o-- MatchesPile
+	GameItem o-- GameSettings
+	GameSettings --> GameState
+	
+}
+
+package Controller <<Frame>> {
+	Class GameMethods {
+	boolean finishedGame
+	checkStatusGame()
+	userTakeMatches()
+	computerTakeMatches()
+	}
+	
+	interface IGameMethods
+	interface IGameMethods
+	
+	Class RoundFlow
+	Class StartGameFlow
+	Class Main
+	
+	GameMethods ..|> IGameMethods : implements 
+	RoundFlow ..> GameMethods : <<use>>
+	StartGameFlow ..> GameMethods : <<use>>
+	
+}
+
+package View <<Frame>> {
+	Class RoundWindowContr
+	Class SetGameWindowContr
+}
+
+@endumluml

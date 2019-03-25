@@ -13,28 +13,37 @@ public class GameMethods {
      * Take specific amount of matches from the pile
      * @param take number of matches that player can take
      * @param pile object with information about actual game
-     * @return object after taking specific amount of matches
+
      */
 
-
-    protected void userTakeMatches(Integer take, MatchesPile pile) {
-        pile.setActualMatchesCount(pile.getActualMatchesCount() - take);
-        changeGameStatus(GameItem.getInstance());
+    protected void userTakeMatches(Integer take, MatchesPile pile) throws NegativeAmountException {
+        if (pile.getActualMatchesCount() >= take) {
+            pile.setActualMatchesCount(pile.getActualMatchesCount() - take);
+            changeGameStatus(GameItem.getInstance());
+        } else {
+            String title = "Pozor.";
+            String header = "Táhnete příliš mnoho sirek.";
+            String content = "Snižte počet tažených sirek.";
+            throw new NegativeAmountException(title, header, content);
+        }
     }
 
     /**
      *  Computer each round takes matches as well
      * @param pile object with info about round
-     * @return object after computers take
      */
-    protected void computerTakeMatches(MatchesPile pile) {
+    protected void computerTakeMatches(MatchesPile pile, GameSettings gameSettings) {
         int computerTake = 0;
-        int upperBound = pile.getActualMatchesCount() + 1;
+        int maximumTake = 0;
+        int actualMatchesCount = 0;
+
+        actualMatchesCount = pile.getActualMatchesCount() + 1;
+        maximumTake = gameSettings.getMaximumTake();
 
         SecureRandom random = new SecureRandom();
         computerTake = random.nextInt();
-        while (computerTake > pile.getActualMatchesCount() || computerTake < 0) {
-            computerTake = random.nextInt(upperBound);
+        while (computerTake > pile.getActualMatchesCount() || computerTake < 0 || computerTake > maximumTake) {
+            computerTake = random.nextInt(actualMatchesCount);
             System.out.println(computerTake);
         }
         pile.setActualMatchesCount(pile.getActualMatchesCount() - computerTake);
@@ -64,7 +73,5 @@ public class GameMethods {
         } else {
             item.getGame().setUserIsWinner(false);
         }
-
-
     }
 }

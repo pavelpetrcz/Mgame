@@ -12,7 +12,6 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import javafx.stage.Popup;
 import model.GameItem;
 
 import java.net.URL;
@@ -29,15 +28,8 @@ public class RoundWindowContr implements Initializable {
     @FXML // fx:id="takeMatchesBtn"
     private Button takeMatchesBtn; // Value injected by FXMLLoader
 
-    @FXML
-    void takeMatches(ActionEvent event) {
 
-    }
 
-    @FXML
-    void chooseAmountMatches(ActionEvent event) {
-
-    }
 
     /**
      * Called to initialize a controller after its root element has been
@@ -73,9 +65,10 @@ public class RoundWindowContr implements Initializable {
                 int selectedAmountToTake;
                 selectedAmountToTake = Integer.parseInt(takeAmountCombo.getValue());
 
-                //start flow to deductt selected number
+                //start flow to deduct selected number
                 TakeMatchesFlow takeMatches = new TakeMatchesFlow();
                 takeMatches.execute(selectedAmountToTake);
+
 
                 //update label for user
                 int newMatchesCountLabel = GameItem.getInstance().getPile().getActualMatchesCount();
@@ -83,27 +76,32 @@ public class RoundWindowContr implements Initializable {
             }
         });
     }
-    public void showAlertComputerWon() {
+    public void showInformation(String title, String header, String content) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Hra skončila.");
-        alert.setHeaderText(null);
-        alert.setContentText("Bohužel počítač tě přelstil a táhl poslední sirky na hromádce. Zkus to znovu.");
+        alert.setTitle(title);
+        alert.setHeaderText(header);
+        alert.setContentText(content);
         alert.showAndWait();
     }
 
-    public void showAlertUserWon() {
+    public void showConfirmation(String title, String header, String content) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-        alert.setTitle("Hra skončila.");
-        alert.setHeaderText(null);
-        alert.setContentText("VÍTĚZSTVÍ! Právě jsi táhl poslední sirky na hromádce. A stáváš se vítězem.");
+        alert.setTitle(title);
+        alert.setHeaderText(header);
+        alert.setContentText(content);
         alert.showAndWait();
 
         ButtonType buttonPlayAgain = new ButtonType("Další hru");
         ButtonType buttonClose = new ButtonType("Zavřít", ButtonBar.ButtonData.CANCEL_CLOSE);
 
         alert.getButtonTypes().setAll(buttonClose, buttonPlayAgain);
-
-
     }
 
+    public void showAlertToBigTake(String title, String header, String content) {
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle(title);
+        alert.setHeaderText(header);
+        alert.setContentText(content);
+        alert.showAndWait();
+    }
 }
