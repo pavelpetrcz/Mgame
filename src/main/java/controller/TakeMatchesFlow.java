@@ -9,7 +9,7 @@ public class TakeMatchesFlow {
         GameMethods game = new GameMethods();
         boolean finishedGame;
         GameItem instance = GameItem.getInstance();
-        
+
         try {
             //user takes
             game.userTakeMatches(playerTake, instance.getPile());
@@ -22,22 +22,21 @@ public class TakeMatchesFlow {
             RoundWindowContr round = new RoundWindowContr();
             if (finishedGame) {
                 if (instance.getGame().isUserWinner()) {
+                    String titleInfo = "Hra skončila.";
+                    String headerInfo = "";
+                    String contentInfo = "VÍTĚZSTVÍ! Právě jsi táhl poslední sirky na hromádce. A stáváš se vítězem.";
+                    round.showConfirmation(titleInfo, headerInfo, contentInfo);
+                } else {
                     String title = "Hra skončila.";
                     String header = "";
                     String content = "Bohužel počítač tě přelstil a táhl poslední sirky na hromádce. Zkus to znovu.";
-                    round.showConfirmation(title, header, content);
-                } else {
-                    String titleInfo = "Hra skončila.";
-                    String headerInfo = "VÍTĚZSTVÍ! Právě jsi táhl poslední sirky na hromádce. A stáváš se vítězem.";
-                    String contentInfo = "VÍTĚZSTVÍ! Právě jsi táhl poslední sirky na hromádce. A stáváš se vítězem.";
-                    round.showInformation(titleInfo, headerInfo, contentInfo);
+                    round.showInformation(title, header, content);
                 }
             }
         } catch (NegativeAmountException ex) {
             //user took too many matches
             RoundWindowContr alertToBigTake = new RoundWindowContr();
             alertToBigTake.showAlertToBigTake(ex.getTitle(), ex.getHeader(), ex.getContent());
-
         }
     }
 }

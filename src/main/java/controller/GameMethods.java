@@ -13,7 +13,6 @@ public class GameMethods {
      * Take specific amount of matches from the pile
      * @param take number of matches that player can take
      * @param pile object with information about actual game
-
      */
 
     protected void userTakeMatches(Integer take, MatchesPile pile) throws NegativeAmountException {

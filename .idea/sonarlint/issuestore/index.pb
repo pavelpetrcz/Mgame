@@ -31,3 +31,5 @@ Q
 !src/main/java/model/GameItem.java,9\f\9f3a7ba88e348c76629a94661222dbb2085d1f6c
 ]
 -src/main/java/controller/TakeMatchesFlow.java,c\3\c35077c735080800948768694f704dba205a8bd0
+e
+5src/main/java/controller/NegativeAmountException.java,a\a\aa9061fccb80dd694c2ef6e39ddeae9a1fe465e3

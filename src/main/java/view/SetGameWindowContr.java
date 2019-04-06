@@ -15,6 +15,7 @@ import javafx.stage.Stage;
 public class SetGameWindowContr {
 
     private StartGameFlow gameStart = new StartGameFlow();
+    private Stage stage = new Stage();
 
     @FXML private TextField totalMatchesCountInput;
     @FXML private TextField maxMatchesRoundTakeInput;
@@ -25,14 +26,10 @@ public class SetGameWindowContr {
         gameStart.execute(Integer.parseInt(totalMatchesCountInput.getText()), Integer.parseInt(maxMatchesRoundTakeInput.getText()));
 
         Pane mySecPane = FXMLLoader.load(getClass().getResource("/roundWindow.fxml")); //new window resource
-        Stage stage = new Stage();
         stage.setTitle("Hra"); //set name of window
         stage.getIcons().add(new Image("iconfinder_match_2799190.png"));
         stage.setScene(new Scene(mySecPane));
         stage.initModality(Modality.APPLICATION_MODAL); //new window behaves as modal
         stage.show();
-
-
     }
-
 }

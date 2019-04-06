@@ -218,6 +218,11 @@
             <set />
           </value>
         </entry>
+        <entry key="K:/dcs/app_cexi/src/main/java/cz/kb/dcs/app_cexi/forms/fo01_payment_orders/payments_list/payment_type_panels/SipoPanel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="K:/dcs/module_aggregation/src/main/java/cz/kb/dcs/module_aggregation/actions/AggregationActions.java">
           <value>
             <set />
@@ -254,6 +259,11 @@
           </value>
         </entry>
         <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo01_payment_orders/flows/TransactionClaimHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_cexi_controller/src/main/java/cz/kb/dcs/module_cexi_controller/application/mobilnibanka2/fo01_payment_orders/flows/TransactionHistoryHandler.java">
           <value>
             <set />
           </value>
@@ -309,6 +319,11 @@
           </value>
         </entry>
         <entry key="K:/dcs/module_data_objects/src/main/java/cz/kb/dcs/module_data_objects/api/domain/standing_order/constants/CBACategoryTrnSpecial.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="K:/dcs/module_data_objects/src/main/java/cz/kb/dcs/module_data_objects/api/transaction/TransactionSaveItem.java">
           <value>
             <set />
           </value>

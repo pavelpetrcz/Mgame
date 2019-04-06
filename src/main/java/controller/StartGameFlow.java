@@ -19,7 +19,6 @@ public class StartGameFlow {
         game.setState(GameState.INPROGRESS); //change of status
         gameItem.setGame(game);
         return gameItem;
-
     }
 
 }

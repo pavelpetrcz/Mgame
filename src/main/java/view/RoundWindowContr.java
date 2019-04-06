@@ -12,9 +12,12 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.stage.Stage;
 import model.GameItem;
 
+import java.awt.event.WindowEvent;
 import java.net.URL;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class RoundWindowContr implements Initializable {
@@ -27,9 +30,6 @@ public class RoundWindowContr implements Initializable {
 
     @FXML // fx:id="takeMatchesBtn"
     private Button takeMatchesBtn; // Value injected by FXMLLoader
-
-
-
 
     /**
      * Called to initialize a controller after its root element has been
@@ -58,22 +58,18 @@ public class RoundWindowContr implements Initializable {
         labelActualCountAtPile.setText(String.valueOf(matchesCountLabel));
 
         //user clieked button
-        takeMatchesBtn.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                //getting selected number of matches to take by user
-                int selectedAmountToTake;
-                selectedAmountToTake = Integer.parseInt(takeAmountCombo.getValue());
+        takeMatchesBtn.setOnAction(event -> {
+            //getting selected number of matches to take by user
+            int selectedAmountToTake;
+            selectedAmountToTake = Integer.parseInt(takeAmountCombo.getValue());
 
-                //start flow to deduct selected number
-                TakeMatchesFlow takeMatches = new TakeMatchesFlow();
-                takeMatches.execute(selectedAmountToTake);
+            //start flow to deduct selected number
+            TakeMatchesFlow takeMatches = new TakeMatchesFlow();
+            takeMatches.execute(selectedAmountToTake);
 
-
-                //update label for user
-                int newMatchesCountLabel = GameItem.getInstance().getPile().getActualMatchesCount();
-                labelActualCountAtPile.setText(String.valueOf(newMatchesCountLabel));
-            }
+            //update label for user
+            int newMatchesCountLabel = GameItem.getInstance().getPile().getActualMatchesCount();
+            labelActualCountAtPile.setText(String.valueOf(newMatchesCountLabel));
         });
     }
     public void showInformation(String title, String header, String content) {
@@ -89,12 +85,16 @@ public class RoundWindowContr implements Initializable {
         alert.setTitle(title);
         alert.setHeaderText(header);
         alert.setContentText(content);
-        alert.showAndWait();
 
         ButtonType buttonPlayAgain = new ButtonType("Další hru");
         ButtonType buttonClose = new ButtonType("Zavřít", ButtonBar.ButtonData.CANCEL_CLOSE);
 
-        alert.getButtonTypes().setAll(buttonClose, buttonPlayAgain);
+        alert.getButtonTypes().setAll(buttonPlayAgain, buttonClose);
+
+        Optional<ButtonType> result = alert.showAndWait();
+        if (result.get() == buttonPlayAgain) {
+            //takeMatchesBtn.getScene().getWindow().hide();
+        }
     }
 
     public void showAlertToBigTake(String title, String header, String content) {
