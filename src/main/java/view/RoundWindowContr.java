@@ -93,7 +93,7 @@ public class RoundWindowContr implements Initializable {
 
         Optional<ButtonType> result = alert.showAndWait();
         if (result.get() == buttonPlayAgain) {
-            //takeMatchesBtn.getScene().getWindow().hide();
+            takeMatchesBtn.getScene().getWindow().hide();
         }
     }
 
