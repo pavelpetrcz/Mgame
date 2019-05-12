@@ -86,14 +86,14 @@ public class RoundWindowContr implements Initializable {
         alert.setHeaderText(header);
         alert.setContentText(content);
 
-        ButtonType buttonPlayAgain = new ButtonType("Další hru");
+        //ButtonType buttonPlayAgain = new ButtonType("Další hru");
         ButtonType buttonClose = new ButtonType("Zavřít", ButtonBar.ButtonData.CANCEL_CLOSE);
 
-        alert.getButtonTypes().setAll(buttonPlayAgain, buttonClose);
+        alert.getButtonTypes().setAll(buttonClose);
 
         Optional<ButtonType> result = alert.showAndWait();
-        if (result.get() == buttonPlayAgain) {
-            takeMatchesBtn.getScene().getWindow().hide();
+        if (result.get() == buttonClose) {
+            takeMatchesBtn.ge
         }
     }
 
