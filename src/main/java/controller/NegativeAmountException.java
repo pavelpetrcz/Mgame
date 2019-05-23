@@ -2,16 +2,12 @@ package controller;
 
 public class NegativeAmountException extends Exception {
 
-    /*Getters*/
-
     public String getTitle() {
         return title;
     }
-
     public String getHeader() {
         return header;
     }
-
     public String getContent() {
         return content;
     }

@@ -15,9 +15,6 @@ public class GameSettings implements IGameSettings {
         state = GameState.NEW;
     }
 
-    /*
-    Getters and setters
-     */
     public Integer getMaximumTake() {
         return maximumTake;
     }
@@ -42,4 +39,3 @@ public class GameSettings implements IGameSettings {
         this.userWinner = userWinner;
     }
 }
-

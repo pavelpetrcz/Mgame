@@ -21,7 +21,6 @@ public class GameItem {
         return gameItem;
     }
 
-    /* Getters and setters */
     public MatchesPile getPile() {
         return pile;
     }

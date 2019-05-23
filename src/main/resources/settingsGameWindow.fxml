@@ -22,9 +22,9 @@
          </tooltip></TextField>
       <Text layoutX="76.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max. sirek na kolo" />
       <Button fx:id="startGamebtn" layoutX="16.0" layoutY="298.0" mnemonicParsing="false" onAction="#handleStartGame" prefHeight="31.0" prefWidth="223.0" text="Start hry" textFill="#eb0000" />
-      <Text layoutX="39.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="matchesGame">
+      <Text layoutX="35.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="matchesGame">
          <font>
-            <Font name="Agency FB Bold" size="37.0" />
+            <Font size="32.0" />
          </font>
       </Text>
       <ImageView fitHeight="150.0" fitWidth="64.0" layoutX="96.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">

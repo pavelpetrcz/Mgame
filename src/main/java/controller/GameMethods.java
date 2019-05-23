@@ -6,6 +6,7 @@ import model.GameState;
 import model.MatchesPile;
 
 import java.security.SecureRandom;
+import java.util.concurrent.TimeUnit;
 
 public class GameMethods {
 
@@ -36,6 +37,11 @@ public class GameMethods {
         int maximumTake = 0;
         int actualMatchesCount = 0;
 
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         actualMatchesCount = pile.getActualMatchesCount() + 1;
         maximumTake = gameSettings.getMaximumTake();
 

@@ -20,5 +20,4 @@ public class StartGameFlow {
         gameItem.setGame(game);
         return gameItem;
     }
-
 }

@@ -5,11 +5,13 @@
 package view;
 
 import controller.TakeMatchesFlow;
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
@@ -57,7 +59,7 @@ public class RoundWindowContr implements Initializable {
         int matchesCountLabel = GameItem.getInstance().getPile().getActualMatchesCount();
         labelActualCountAtPile.setText(String.valueOf(matchesCountLabel));
 
-        //user clieked button
+        //user clicked button
         takeMatchesBtn.setOnAction(event -> {
             //getting selected number of matches to take by user
             int selectedAmountToTake;
@@ -85,15 +87,15 @@ public class RoundWindowContr implements Initializable {
         alert.setTitle(title);
         alert.setHeaderText(header);
         alert.setContentText(content);
+        alert.setOnCloseRequest(event -> exitApplication());
 
-        //ButtonType buttonPlayAgain = new ButtonType("Další hru");
+        //button close
         ButtonType buttonClose = new ButtonType("Zavřít", ButtonBar.ButtonData.CANCEL_CLOSE);
-
         alert.getButtonTypes().setAll(buttonClose);
 
         Optional<ButtonType> result = alert.showAndWait();
         if (result.get() == buttonClose) {
-            takeMatchesBtn.ge
+            exitApplication();
         }
     }
 
@@ -103,5 +105,10 @@ public class RoundWindowContr implements Initializable {
         alert.setHeaderText(header);
         alert.setContentText(content);
         alert.showAndWait();
+    }
+
+    public void exitApplication() {
+        Platform.exit();
+        System.exit(0);
     }
 }
