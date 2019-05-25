@@ -3,7 +3,10 @@ package controller;
 import model.GameItem;
 import view.RoundWindowContr;
 
+import java.util.logging.Logger;
+
 public class TakeMatchesFlow {
+    final static Logger logger = Logger.getLogger(String.valueOf(TakeMatchesFlow.class));
 
     public void execute(int playerTake) {
         GameMethods game = new GameMethods();
@@ -37,6 +40,7 @@ public class TakeMatchesFlow {
             //user took too many matches
             RoundWindowContr alertToBigTake = new RoundWindowContr();
             alertToBigTake.showAlertToBigTake(ex.getTitle(), ex.getHeader(), ex.getContent());
+            logger.info("Taken too many matches.");
         }
     }
 }
